@@ -40,3 +40,9 @@
 - 도커 실행하는 명령어가 너무 길다.
 - 때문에 docker-compose.yml이라는 파일을 만들고 그곳에 명령어를 입력한다.
 - docker-compose up 명령어 한 줄로 컨테이너가 만들어진다.
+### 2. How 
+- 예를 들어 다음과 같은 도커 실행문이 있다고 치자.<br>
+![image](https://user-images.githubusercontent.com/73030613/199261710-c575dab8-281d-487c-b758-54da04618c7e.png) <br>
+- yml 파일을 만들어 실행문을 넣어놓는다. <br>
+![image](https://user-images.githubusercontent.com/73030613/199262137-4bc27aad-4ab8-47a0-af7f-3bf53081113a.png)<br>
+- 그렇게 되면 docker-compose up 명령어 한 줄로 실행이 가능하다.
