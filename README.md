@@ -34,3 +34,9 @@
    - apt install nano<br>
    - nano index.html<br> : 이곳에서 html 수정 가능 but 컨테이너가 사라질 때 위험함.<br>
 - docker run -p 8080:80 -v 절대경로:/usr/local/apache2/htdocs httpd : 호스트에서 html 수정 가능
+
+# docker-compose
+### 1. What
+- 도커 실행하는 명령어가 너무 길다.
+- 때문에 docker-compose.yml이라는 파일을 만들고 그곳에 명령어를 입력한다.
+- docker-compose up 명령어 한 줄로 컨테이너가 만들어진다.
